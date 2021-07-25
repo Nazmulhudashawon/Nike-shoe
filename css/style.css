@@ -5,11 +5,12 @@ font-weight: 700;
 .nav-link {
     
     color:black;
+    overflow: hidden;
 
 }
 .nav-link:hover{
     color: rgb(255, 218, 54);
-     transform: scaleY(1.5);
+     transform: scaleY(1.3) scaleX(1.3);
     
 }
 .image-hover:hover{
@@ -17,7 +18,8 @@ font-weight: 700;
 
 }
 a{
-    color:black
+    color:black;
+    
 }
 a:hover{
     color: rgb(255, 218, 54);
